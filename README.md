@@ -2,7 +2,7 @@
 
 You can use the [editor on GitHub](https://github.com/Nibble0x4/coursera/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
 
-If you'd like to go to the site proper, use this link [Go to Site](https://nibble0x4.github.io/coursera/site/TWEbsiteRulesetPage)
+If you'd like to go to the site proper, use this link [Go to Site](site/TWEbsiteRulesetPage.html)
 
 
 ### Markdown
