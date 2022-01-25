@@ -1,61 +1,12 @@
 <!DOCTYPE html>
 <html lang="en-US">
-<head><title> TWEbsite Ruleset Page </title>
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<style>
-.page-header {
-	border: 5px outset #044440;
-	text-align: center;
-	font-size: 60 px;
-	background: grey;
-	color: #aa0000;
-}
-
-.option-box {
-	padding: 4px;
-	text-align: left;
-	text-decoration: none;
-	display: inline-block;
-	font-size: 16px;
-	margin: 4px 2px;
-	border-radius: 12px;
-	position: sticky;
-	<!--top: 18px;
-	left: 30px;-->
-	top: 20%;
-	left: 2%;
-	background: grey;
-	color: #aaffff;
-	border: 5px outset #044440;
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title> TWEbsite Ruleset Page </title>
+	<link rel="stylesheet" href="style.css">
 
 
-}      <!-- The above class shows that order of operations in class files is a real thing-->
-.std {
-	background: lightgrey;
-	font-size: 16px;
-	text-align: left;
-	display: inline-block;
-	position: static;
-	left: 34px;
-}
-.text {
-	text-align: left;
-	display: inline-block;
-	font-size: 20px;
-	margin: 16px 12px;
-	position: absolute;
-	left: 18%;
-}
-.body-text {
-	text-align: left;
-	display: inline-block;
-	font-size: 20px;
-	margin: 16px 12px;
-	position: relative;
-}
- 
-
-</style>
 </head>
 <body class="std">
 
@@ -65,17 +16,17 @@
 		<h2> Pages: </h2>
 		<p> Intro Page</p>
 		<p style="font-style:underline; color:#ee0000; cursor:pointer" onclick="alert('You are already on this page!')">	<u>Ruleset Page</u><b style="color:#044440">(you are here)</b> </p>
-			<p style="text-indent: 30px; cursor:pointer">	<a href="#specialActions" style="font-style:underline; color:#aafff0;">Special Actions</a></p>
-			<p style="text-indent: 30px; cursor:pointer">	<a href="#combatManeuvers" style="font-style:underline; color:#aafff0;">Combat Maneuvers</a></p>
-			<p style="text-indent: 30px; cursor:pointer">	<a href="#statusEffects" style="font-style:underline; color:#aafff0;">Status Effects</a></p>
-			<p style="text-indent: 30px; cursor:pointer">	<a href="#skills" style="font-style:underline; color:#aafff0;">Skills</a></p>
+			<p class="suboption">	<a href="#specialActions" >Special Actions</a></p>
+			<p class="suboption">	<a href="#combatManeuvers" >Combat Maneuvers</a></p>
+			<p class="suboption">	<a href="#statusEffects" >Status Effects</a></p>
+			<p class="suboption">	<a href="#skills" >Skills</a></p>
 		<p style="font-style:underline; color:#eeee00; cursor:pointer">	<u>Classes Page</u> </p>
 		<p style="font-style:underline; color:#00dd00; cursor:pointer"> <a href="TWEbsiteRacesPage.html" style="font-style:underline; color:#00dd00;"><u>Races Page </u></a> </p>
 		<p style="font-style:underline; color:#0000dd; cursor:pointer">	<u>Lore Page </u> </p>
 
 	</div>
 	
-	<p class="text"> <b style="color:#044440; background:lightgrey; font-size:24px"> How the game is played </b>
+	<p class="text"> <b class="subheader"> How the game is played </b>
 	<br>Ultimately, TWE is a game of risk and reward. When any character tries a task that may be difficult, they must rely on chance. 
 	They do this by rolling a twenty-sided die (d20) and adding modifiers to the result of that die. The modifiers represent how skilled 
 	the person is in that task, and the die gives the risk. On this page, you will see how to interact with the world around your character. 
@@ -91,10 +42,10 @@
 	<hr>
 	
 
-	<p class="body-text"> <b style="color:#044440; background:lightgrey; font-size:32px"> Combat </b>
+	<p class="body-text"> <b class="header"> Combat </b>
 	<br> When combat inevitably breaks out, it is up to the players to decide what their characters will do, and it is up to the rule system to provide clear guidelines for what they CAN do.
 		
-		<br><br><b style="color:#044440; background:lightgrey; font-size:24px"> Initiative </b>
+		<br><br><b class="subheader"> Initiative </b>
 		<br> In combat, each character gets a chance to act on their own "turn". At the start of combat, the "turn order" is 
 		determined by rolling "initiative." Each character rolls a d20 and adds their Initiative modifier. The turn order is 
 		set in order from highest result to lowest result and each character takes their turn in the determined order. Once everyone 
@@ -102,7 +53,7 @@
 		in the game world, takes only about 6 seconds. During a fight, if a character has not yet had a chance to act (in other words, 
 		their turn has not yet come up), then they are considered <b>flat-footed</b> and are easier to attack.
 		
-		<br><br><b style="color:#044440; background:lightgrey; font-size:24px"> Damage and HP </b>
+		<br><br><b class="subheader"> Damage and HP </b>
 		<br> Though it may not be realistic, each character relies on a number to determine if they live or die. This number is called 
 		your Hit Points (hp), and represents how close you are to death. Each character has a "max hp" that determines how much hp they 
 		can have. The tougher the character, the higher their max hp can be. Hp can be lost and regained by being attacked or healed, 
@@ -112,7 +63,7 @@
 		<br> If your current hp drops to 0, you fall <b>unconscious</b>.
 		<br> If your current hp drops to below 0, you begin <b>dying</b>.
 		<br> If your current hp drops to a negative number equal to your max hp, you are <b> dead</b>.
-		<br><b style="color:#044440; background:lightgrey; font-size:20px"> Nonlethal Damage </b>
+		<br><b class="subheader2"> Nonlethal Damage </b>
 		<br> Not all damage will kill you. For example, while a sword slice is intended to kill you, a punch to your chest may 
 		just hurt a lot. Attacks like punches and kicks tend to deal nonlethal damage. This damage is special, as it is NOT 
 		subtracted from your current hp. Instead, keep track of how much nonlethal damage you have taken separately. This can 
@@ -124,7 +75,7 @@
 		<br> If your nonlethal damage exceeds your current hp, you are knocked <b>unconscious</b>.
 		
 		
-		<br><br><b style="color:#044440; background:lightgrey; font-size:24px"> 3-Action System </b>
+		<br><br><b class="subheader"> 3-Action System </b>
 		<br>Because each round takes only 6 seconds, we must be selective with how the characters can act during their turns. In TWE, each character is given 3 actions to use during their turn.
 		They may choose to spend these actions in whatever order they want, and even to spend less than 3 if they would like, but in the end a character's chances at success
 		during each round will rely on how they chose to spend their 3 actions.
@@ -138,20 +89,20 @@
 		<br><b>D- Free actions:</b> Each round, characters have an indeterminate number of free actions. Free actions must be used on your turn.
 		
 		<section id="specialActions" class="body-text">
-		<br><br><br><b style="color:#044440; background:lightgrey; font-size:24px"> Special Actions </b>
+		<br><br><br><b class="header"> Special Actions </b>
 		<br>Following is a list of commonly taken actions in combat. Unless otherwise noted, attempting one of the following actions on your turn takes 1 action.
-		<br><br><b style="color:#044440; background:lightgrey; font-size:22px"> Attack (1 action)</b>
+		<br><br><b class="subheader1"> Attack (1 action)</b>
 		<br>When you take an attack action, you use a weapon of some kind to attempt to harm a target. You must make an "Attack Roll" and compare the result to the target's Armor Class (AC). If your Attack Roll 
 		is greater than or equal to the target's AC, then you harm them and get to roll to see how much damage you deal to them. 
 		
-		<br><b style="color:#044440; background:lightgrey; font-size:20px"> Melee </b>
+		<br><b class="subheader2"> Melee </b>
 		<br>If you are using a melee weapon against a target in range, then you make a <b style="color:brown">Melee Attack Roll by rolling 1d20 + your Base Attack Bonus + your strength modifier.</b>
 		<br>For Damage, you roll a die corresponding to your weapon and add your Strength modifier. The result is your total damage dealt.
 		<br> If you are using both hands to wield a weapon that is not a light weapon, then you add 1.5x your strength modifier to Attack Rolls and Damage instead.
 		<br> If you are using a dagger, then you may choose to add your dexterity modifier to Attack Rolls and Damage instead.
 		<br> If you are wielding a melee weapon, you are said to be "threatening" any creatures within range of your weapon.
 		
-		<br><b style="color:#044440; background:lightgrey; font-size:20px"> Ranged </b>
+		<br><b class="subheader2"> Ranged </b>
 		<br>If you are using a Ranged weapon against a target in range, then you make a <b style="color:brown">Ranged Attack Roll by rolling 1d20 + your Base Attack Bonus + your dexterity modifier + your strength penalty. </b>
 		<br>For Damage, you roll a die corresponding to your weapon and add your dexterity modifier. The result is your total damage dealt.
 		<br>The strength penalty is only added if you are using a bow, and if your strength modifier is less than 0.
@@ -159,7 +110,7 @@
 		You cannot attack a target from triple your weapon's range.
 		<br> If you are wielding a ranged weapon, you are not "threatening" any creatures.
 		
-		<br><b style="color:#044440; background:lightgrey; font-size:22px"> Criticals </b>
+		<br><b class="subheader1"> Criticals </b>
 		<br>If your attack roll d20 rolls a natural 1, then you automatically miss and suffer some penalty or 
 		mishap related to the situation. If you roll a natural 20, then you automatically land a critical hit. On a critical hit, you get to multiply the total damage dealt by your attack by 2. If your weapon has a 
 		critical multiplier of x3 or x4, then you get to triple or quadruple your damage instead.
@@ -167,12 +118,12 @@
 		by your weapon's critical modifier. A soft crit does not count as a critical hit for the purposes of conditions that trigger on a critical hit.
 		<br> Your <b style="color:brown">Crit Guard is calculated by adding your AC + ((1/2 your CMD) rounded up).</b>
 		
-		<br><b style="color:#044440; background:lightgrey; font-size:22px"> Multiple Attacks </b>
+		<br><b class="subheader1"> Multiple Attacks </b>
 		<br>When you take an attack action during your turn and it is not your first Attack action during that turn, then you take a penalty on your Attack roll.
 		<br> If it is your second Attack, you take a -5 penalty.
 		<br> If it is your third Attack, you take a -10 penalty.
 		
-		<br><br><b style="color:#044440; background:lightgrey; font-size:22px"> Coup De Grace (3 actions)</b> 
+		<br><br><b class="subheader1"> Coup De Grace (3 actions)</b> 
 		<br> (Meaning "Mercy Strike") This is an action that you can take against an opponent who is <b>Helpless</b>. If you take this action against an adjacent helpless foe, 
 		then you prepare yourself to kill them in a single strike. This preparation allows you to use any weapon or available 
 		substitute to prepare to kill them. If, at the start of your next turn, they remain helpless and are within 1 Move action of you, then you 
@@ -180,7 +131,7 @@
 		damage accordingly. If the damage does not kill the target, then they must make a fortitude save (DC = 10 + damage dealt by hit) or die.
 		
 		
-		<br><br><b style="color:#044440; background:lightgrey; font-size:22px"> Defend (1 action)</b>
+		<br><br><b class="subheader1"> Defend (1 action)</b>
 		<br> When you take a defend action, you first decide whether you will be defending yourself or an ally that you can threaten. 
 		<br>If you choose to defend yourself, then you gain the following bonuses:
 		<br>+2 deflection bonus to your AC.
@@ -191,14 +142,14 @@
 		<br>+1 additional bonus to their Crit Guard
 		<br>+1 bonus to saves
 		
-		<br><br><b style="color:#044440; background:lightgrey; font-size:22px"> Move (1 action/ 1 swift action) </b>
+		<br><br><b class="subheader1"> Move (1 action/ 1 swift action) </b>
 		<br> When you choose to move, you may move a number of feet equal to your speed for that medium. (e.g. if your land speed is 30 feet, you can move across 30 feet land as one action)
 		<br> You may instead choose to move only 5 feet, but do so carefully in order to avoid the possibility of provoking "attacks of opportunity" from enemies. 
 		Doing this once costs a swift action, so it doesn't count against your 3 actions this turn. If you want to do this more than once, you must spend 
 		1 action each time.
 		<br> If you are in a prone position, you may use a move action to stand upright. Doing this provokes an Attack of Opportunity
 		<br> You may choose to perform an acrobatic maneuver of some kind in conjunction with your move. 
-		<br><b style="color:#044440; background:lightgrey; font-size:20px"> Charge </b>
+		<br><b class="subheader2"> Charge </b>
 		<br> The Charge action is a variant of the Move action. When you charge, you must move in a straight line and you must move more than your maximum movement speed
 		and not more than double your movement speed.
 		When you reach your destination, you may then make a melee attack roll against an enemy within reach. If you do this, then you
@@ -210,12 +161,12 @@
 		 action. The enemy is too close.
 		<br> If you are the same human from above standing on the same plane, but the enemy is 70 feet away, then you can charge 60 feet towards them.
 		You cannot make an attack against them, since they are still too far away for you to reach with your sword.
-		<br><b style="color:#044440; background:lightgrey; font-size:20px"> Run </b>
+		<br><b class="subheader2"> Run </b>
 		<br> This is another potentially confusing action. Once per hour, you may spend an action to Run. Running allows
 		you to move up to triple your movement speed. This movement is not limited to a straight line like Charge is, nor does
 		it allow you to attack as a part of the action.
 		
-		<br><br><b style="color:#044440; background:lightgrey; font-size:22px"> Attacks of Opportunity (1 Attack of Opportunity)</b>
+		<br><br><b class="subheader1"> Attacks of Opportunity (1 Attack of Opportunity)</b>
 		<br> Certain actions leave you open to attack in a fight. If you perform these actions while an enemy threatens you with their weapon, then they may spend their Attack of Opportunity (AoO)
 		to make an Attack action during your turn. There are several ways to "provoke" an AoO. Be careful to avoid it when possible. Here are some common ways to provoke an AoO:
 		<br>A-Moving out of a space that is threatened by an enemy. (unless you move only 5 feet, see Move Special Action)
@@ -226,14 +177,14 @@
 		acrobatics skill check. If your result is greater than or equal to the CMD of the enemy that is threatening you, then you do not provoke an attack of opportunity.
 		If it is not and the enemy strikes you with their attack of opportunity, you must stop your movement in the space where they struck you and you cannot take another move action this turn.
 		
-		<br><br><b style="color:#044440; background:lightgrey; font-size:22px"> Full-Attack (2 actions)</b>
+		<br><br><b class="subheader1"> Full-Attack (2 actions)</b>
 		<br>When you take a Full-Attack action, you may make an Attack action. Then, subtract 5 from your Base Attack Bonus. If the result is still greater than 0, then you may make another attack roll. 
 		You can continue to do this, subtracting 5 from your Base Attack Bonus, until it is no longer greater than 0. 
 		<br> If you have taken a Full-Attack this turn, you cannot make an Attack with your remaining action(s). If you have already taken an Attack this turn, then you cannot take a Full-Attack.
 		<br> If you have taken a Full-Attack this turn and choose to take a Move action, you can move only half of the distance you otherwise could. If you have already moved more than half of your
 		movement speed this turn, then you cannot take a Full-Attack.
 		
-		<br><br><b style="color:#044440; background:lightgrey; font-size:22px"> Use an Item (1 or more actions)</b>
+		<br><br><b class="subheader1"> Use an Item (1 or more actions)</b>
 		<br>When you wish to use an item that you have in your hands, you may spend a single action to do so. If the item is especially difficult
 		or complex, then it may take more than 1 action. If the item is as complicated as, for example, a ballista, then a whole 
 		round or more may need to be spent operating it. However, most items are a single action to use. Here are some examples:
@@ -245,7 +196,7 @@
 		<br> If you wish to use an item on a creature that is unresponsive or in some way incapable of acting, then it will likely take 2 actions for you to use the item. 
 		One example of this is trying to administer a healing potion to an unconscious ally. 
 		
-		<br><br><b style="color:#044440; background:lightgrey; font-size:22px"> Retrieve an Item (1 or less actions)</b>
+		<br><br><b class="subheader1"> Retrieve an Item (1 or less actions)</b>
 		<br> Retrieving an item is, in most cases, a single action. Examples of this are:
 		<br>-	 Picking up an item from the ground
 		<br>-	 Sheathing a weapon
@@ -256,7 +207,7 @@
 		<br>- 	 Picking up an item from a table or other convenient location within reach
 		<br>- 	 Catching an item thrown to you (This can be done even when it is not your turn)
 		
-		<br><br><b style="color:#044440; background:lightgrey; font-size:22px"> Use a skill (1 or less actions)</b>
+		<br><br><b class="subheader1"> Use a skill (1 or less actions)</b>
 		<br> There are a multitude of skills available for use by characters. There are two ways a skill can be "used." 
 		<br> The first way is when a player says "I would like to use ____ skill to try to accomplish ____ thing." When this is done, the skill
 		is simply a means to an end. For example, a player who says "I want to use acrobatics to jump over the enemy!" will spend 
@@ -287,14 +238,14 @@
 		<br> The second way is when the GM calls for a roll to be made. For example, if the GM asks a player to "roll stealth," then 
 		the stealth check takes no actions. 
 		
-		<br><br><b style="color:#044440; background:lightgrey; font-size:22px"> Speak (1 Immediate action)</b>
+		<br><br><b class="subheader1"> Speak (1 Immediate action)</b>
 		<br> At any point in battle, regardless of whose turn it is, characters may speak. This includes calling to allies,
 		shouting in fear or encouragement, taunting foes, attempting to strike up banter with an enemy, or relaying basic information.
 		When players use the Speak action, they are encouraged to be concise and quick with their words. After all, each turn is only
 		6 seconds. However, it is ultimately up to the GM to determine how strict they want to be with the enforcement of this rule.
 		
 		<section id="combatManeuvers" class="body-text">
-		<br><br><b style="color:#044440; background:lightgrey; font-size:22px"> Combat Maneuver (1 action)</b>
+		<br><br><b class="header"> Combat Maneuver (1 action)</b>
 		<br> A combat maneuver is an action taken in combat that is not a direct attack, but is intended to hamper a foe or 
 		alter the flow of battle. Combat maneuvers are attempted by making CMB checks. These checks are made by rolling 
 		a d20 and adding your CMB (Combat Maneuver Bonus) to the result. Remember that performing a combat maneuver is an action that 
@@ -307,12 +258,12 @@
 		<br> Once you have rolled your Combat Maneuver Check, you then compare the result to your target's CMD (Combat Maneuver Defense).
 		<br><b style="color:brown">The formula for CMD is Base Attack Bonus + Strength Modifier + Dexterity Modifier + Size Modifier + 10</b>.
 		<br><br> There are many different kinds of combat maneuvers, so they will each be listed and described below.
-		<br><b style="color:#044440; background:lightgrey; font-size:20px"> Trip </b>
+		<br><b class="subheader2"> Trip </b>
 		<br> This combat maneuver is simple. You attempt to knock the opponent down by sweeping their legs out from under them.
 		If your CMB check beats the target's CMD, then they fall prone. 
 		<br> You cannot trip a creature who is more than one size category larger than you, unless your tool for doing so is sized appropriately.
 		<br> Performing a trip provokes an Attack of Opportunity from your target unless you possess the Improved Trip Feat.
-		<br><b style="color:#044440; background:lightgrey; font-size:20px"> Bullrush </b>
+		<br><b class="subheader2"> Bullrush </b>
 		<br> This combat maneuver is essentially a shove, usually done with a running start. If your CMB check beats your target's CMD, 
 		then you push your target 5 feet. For every additional 5 that you beat their CMD, you can push them an additional 5 feet. For example:
 		<br> If you try to bullrush a goblin and roll a 23 on your CMB check against the goblin's 14 CMD, then you can push the goblin up to
@@ -322,7 +273,7 @@
 		<br> You cannot bullrush a creature who is than one size category larger than you.
 		<br> Performing a bullrush provokes an Attack of Opportunity unless you possess the Improved Bullrush Feat.
 		<br> Creatures moved by your bullrush do not provoke attacks of opportunity unless you possess the Greater Bullrush Feat.
-		<br><b style="color:#044440; background:lightgrey; font-size:20px"> Drag </b>
+		<br><b class="subheader2"> Drag </b>
 		<br> This combat maneuver is essentially a pull. If your CMB check beats your target's CMD, 
 		then you pull your target 5 feet. For every additional 5 that you beat their CMD, you can pull them an additional 5 feet. For example:
 		<br> If you try to drag a goblin and roll a 23 on your CMB check against the goblin's 14 CMD, then you can pull the goblin up to
@@ -330,21 +281,21 @@
 		<br> You cannot drag a creature who is than one size category larger than you.
 		<br> Performing a drag provokes an Attack of Opportunity from your target unless you possess the Improved Drag Feat.
 		<br> Creatures moved by your drag do not provoke attacks of opportunity unless you possess the Greater Drag Feat.
-		<br><b style="color:#044440; background:lightgrey; font-size:20px"> Overrun </b>
+		<br><b class="subheader2"> Overrun </b>
 		<br> An overrun attempt is essentially when you try to push your way past a creature. Unlike bullrush, 
 		you are not trying to push the creature anywhere. You are simply trying to move through its space. If your CMB check beats 
 		the target's CMD, then you successfully move through their space. If your check beats their CMD by 5 or more, then you 
 		move through their square and knock them prone.
 		<br> You cannot overrun a creature more than 1 size category larger than you.
 		<br> Performing an overrun provokes an Attack of Opportunity unless from your target you possess the Improved Overrun Feat.
-		<br><b style="color:#044440; background:lightgrey; font-size:20px"> Reposition </b>
+		<br><b class="subheader2"> Reposition </b>
 		<br> A reposition combat maneuver is an attempt to forcefully move an enemy to a different position relative to you. 
 		If your CMB check beats the enemy's CMD, then you may move them to any other space that you can reach. For every 5 that you
 		beat the CMD, you may move them again. 
 		<br> You cannot reposition a foe that is more than 1 size category larger than you.
 		<br> Performing a reposition provokes an Attack of Opportunity from your target unless you possess the Improved Reposition Feat.
 		<br> The enemy does not provoke Attacks of Opportunity due to being moved unless you possess the Greater Reposition Feat
-		<br><b style="color:#044440; background:lightgrey; font-size:20px"> Dirty Trick </b>
+		<br><b class="subheader2"> Dirty Trick </b>
 		<br> A dirty trick is a combat maneuver that encompasses underhanded tactics. They are used to give hampering effects
 		to a target for 1 round. These effects can be removed by the enemy if they spend 1 action on their turn. The possible effects are:
 		<br>- Blinded: Done by an action like throwing sand in their face.
@@ -356,7 +307,7 @@
 		<br> These effects only last up to 1 round, plus 1 round for every 5 that your CMB check beats the target's CMD.
 		<br> Performing a dirty trick provokes an attack of opportunity from your target unless you possess the Improved Dirty Trick feat.
 		<br> If you possess the Greater Dirty Trick Feat, the effect lasts for 1d4 rounds plus 1 round for every 5 that your CMB check beats the target's CMD.
-		<br><b style="color:#044440; background:lightgrey; font-size:20px"> Steal </b>
+		<br><b class="subheader2"> Steal </b>
 		<br> This combat maneuver can be used to take an item from an enemy in combat. If you beat the target's CMD with your CMB check, then you may steal an item from them.
 		You cannot steal an item that is:
 		<br>- worn closely (like armor, clothing, backpacks, or rings)
@@ -367,7 +318,7 @@
 		<br> The target is aware that you have stolen something from them unless you have the Greater Steal Feat.
 		<br> Using a whip, you can attempt to steal from a distance, taking a -4 penalty to your CMB for the attempt.
 		<br> You must have one hand free to perform a steal.
-		<br><b style="color:#044440; background:lightgrey; font-size:20px"> Disarm </b>
+		<br><b class="subheader2"> Disarm </b>
 		<br> You attempt to disarm an enemy of an item that they are currently holding in their hand. If your CMB check beats their
 		CMD, then you choose one item they are holding (even if it is in two hands) for them to drop in their space.
 		<br> If your CMB check beats their CMD by 10 or more, then they drop the items they are holding in both of their hands.
@@ -375,13 +326,13 @@
 		<br> If you are attempting to disarm with your bare hands, you take a -4 penalty to your CMB on the attempt.
 		<br> If you successfully disarm them with your bare hands, then you may pick up their item(s) from the ground as a free action.
 		<br> Performing a disarm provokes an Attack of Opportunity from your target unless you possess the Improved Disarm Feat.
-		<br><b style="color:#044440; background:lightgrey; font-size:20px"> Sunder </b>
+		<br><b class="subheader2"> Sunder </b>
 		<br> A sunder attempt is when you choose to try to break an item worn or carried by the target instead of harming them directly.
 		If your CMB check beats your target's CMD, then you may roll damage as if you had rolled an attack against the creature. 
 		This damage is dealt to the item instead of the creature. If the item is reduced to less than half its hp, then it gains the Broken condition. 
 		If you reduce the item to 0 hp, you may choose to destroy it. If you do not or cannot destroy it, then it remains broken at 1 hp.
 		<br> Performing a sunder provokes an Attack of Opportunity from your target creature unless you possess the Improved Sunder Feat.
-		<br><b style="color:#044440; background:lightgrey; font-size:20px"> Feint </b>
+		<br><b class="subheader2"> Feint </b>
 		<br> Feint is a special combat maneuver. Instead of rolling a CMB check, you <b style="color:brown">instead roll a Bluff check</b>. If your Bluff check
 		beats a <b style="color:brown">DC = 10 + The Enemy's Base Attack Bonus + Wisdom Modifier</b>, then you succeed. Alternatively, if the target is trained in 
 		Sense Motive, then the <b style="color:brown">DC = 10 + Sense Motive Modifier if that is higher</b>.
@@ -389,7 +340,7 @@
 		<br> If you fail, then you provoke an Attack of Opportunity, during which you are flat-footed. 
 		<br> If you have the Improved Feint Feat, then you are not considered flat-footed during the attack of opportunity from failure.
 		<br> If you have the Greater Feint Feat, then you do not provoke an Attack of Opportunity when you fail.
-		<br><b style="color:#044440; background:lightgrey; font-size:20px"> Grapple </b>
+		<br><b class="subheader2"> Grapple </b>
 		<br> Grapple is a very complicated combat maneuver. When you attempt to grapple a foe, you must first a roll a CMB check
 		against them. If you succeed, then you and the target both become grappled and you have the upper hand. Each round on 
 		your turn, you must spend 1 action to roll another CMB check against their CMD. If you are successful, then you keep the upper hand.
@@ -415,7 +366,7 @@
 		for every ally who is helping them.
 	</section>
 		
-		<br><br><b style="color:#044440; background:lightgrey; font-size:22px"> Delay (0 actions)</b>
+		<br><br><b class="subheader1"> Delay (0 actions)</b>
 		<br> This is not exactly an action, as it takes no actions to perform, but it is a choice that you can make during 
 		your turn. If you choose to delay, you essentially shift your turn in the initiative order to a later position. You select 
 		a point in time, an event, or another character's turn and tell the gm that you would like to wait until that point before
@@ -428,7 +379,7 @@
 		For each round after this, the order will be <b>Wendy, Felix, Orc</b>. The orc takes its turn and the round ends. It will be 
 		Wendy's turn at the start of the next round.
 		
-		<br><br><b style="color:#044440; background:lightgrey; font-size:22px"> Ready (1,2,2.5 actions)</b>
+		<br><br><b class="subheader1"> Ready (1,2,2.5 actions)</b>
 		<br> The Ready action is used when there is something you want to do, but you do not want to do it right away. When you 
 		choose to Ready, you must declare what you wish to do and when you wish to do it. The thing you wish to do must be 1,2, or 2.5 actions. 
 		If it is 3 actions or more, then you must Delay instead. When this has been done, you may use any remaining actions however you wish.
@@ -443,7 +394,7 @@
 		orc then takes its third action.
 		
 		
-		<br><br><b style="color:#044440; background:lightgrey; font-size:22px"> Casting a Spell (1,2,2.5 actions)</b>
+		<br><br><b class="subheader1"> Casting a Spell (1,2,2.5 actions)</b>
 		<br> Magic. Some characters have the ability to cast magical spells on their turns. While these spells vary widely in 
 		difficulty, power, and effect, they all follow the same basic rules when it comes to determining how many actions 
 		they take. <b>Casting a spell provokes an Attack of Opportunity.</b>
@@ -489,7 +440,7 @@
 		<br><b style="color:brown"> The DC for a Concentration check to cast a spell defensively is 15 + double the level of the spell + 
 		1 for every enemy that threatens you - 1 for every ally that threatens you</b>.
 		
-		<br><br><b style="color:#044440; background:lightgrey; font-size:22px"> Using a Spell-Like Ability (? actions)</b>
+		<br><br><b class="subheader1"> Using a Spell-Like Ability (? actions)</b>
 		<br> Sometimes characters have access to abilities that are magical in nature, but are not spells. These are very 
 		similar to spells, but follow different rules. 
 		<br> Using a spell-like ability does not provoke an Attack of Opportunity.
@@ -499,7 +450,7 @@
 		</section>
 		
 		<section id="statusEffects" class="body-text">
-		<br><br><br><b style="color:#044440; background:lightgrey; font-size:24px"> Status Effects </b>
+		<br><br><br><b class="header"> Status Effects </b>
 		<br> Adventurers experience many different kinds of ordeals during their travels. While many threats can simply cause 
 		harm in the conventional sense, dealing hp damage, there are other ways to harm and hamper creatures. Some attacks or 
 		spells may inflict special effects on creatures called status effects. The most common of these effects will be listed 
@@ -710,7 +661,7 @@
 		</section>
 
 		<section id="skills" class="body-text">
-		<br><br><br><b style="color:#044440; background:lightgrey; font-size:24px"> Skills </b>
+		<br><br><br><b class="header"> Skills </b>
 		<br> There are many different things for characters to do aside from just combat. Some people never become very competent in 
 		battle, instead choosing to hone their skills in different areas. A blacksmith, an acrobat, a thief, a politician, a merchant, 
 		a swindler, a spy, a wilderness survivalist, a doctor, the list of possibilities for people who avoid combat is extensive. 
