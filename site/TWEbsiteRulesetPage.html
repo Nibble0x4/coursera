@@ -38,7 +38,8 @@
 	 <br><br> If you wish to find specific rules, I highly suggest you use the search function on your device to quickly locate your target. 
 	 Items on this page are organized based on how similar they are to their neighbors, <b> Not alphabetically </b>. If you find something 
 	 similar to what you are looking for, it is likely close to your target.
-	
+	</p>
+
 	<hr>
 	
 
@@ -832,13 +833,22 @@
 		complicated maneuvers or other daring feats.
 		This skill is based on dexterity.
 		</section>
-		</p>
-
-
+	</p>
 </body>
 
 <script>
+window.onscroll = function() {myFunction()};
 
+var header = document.getElementById("page-select-box");
+var sticky = header.offsetTop;
+
+function myFunction() {
+  if (window.pageYOffset > sticky) {
+    header.classList.add("sticky");
+  } else {
+    header.classList.remove("sticky");
+  }
+}
 </script>
 
 </html>

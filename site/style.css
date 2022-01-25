@@ -54,7 +54,7 @@ div a:hover {
 	font-size: 16px;
 	margin: 4px 2px;
 	border-radius: 12px;
-	position: sticky;
+	<!--position: sticky;-->
 	<!--top: 18px;
 	left: 30px;-->
 	top: 20%;
