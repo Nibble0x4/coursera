@@ -1,3 +1,8 @@
+
+* {
+		box-sizing: border-box;
+}
+
 a {
 	color: #044440;
 }
@@ -46,7 +51,7 @@ div a:hover {
 	color: #aa0000;
 }
 
-.option-box {
+div.option-box {
 	padding: 4px;
 	text-align: left;
 	text-decoration: none;
@@ -54,7 +59,7 @@ div a:hover {
 	font-size: 16px;
 	margin: 4px 2px;
 	border-radius: 12px;
-	<!--position: sticky;-->
+	position: sticky;
 	<!--top: 18px;
 	left: 30px;-->
 	top: 20%;
@@ -62,6 +67,7 @@ div a:hover {
 	background: grey;
 	color: #aaffff;
 	border: 5px outset #044440;
+	width: 15%;
 }      
 
 .suboption {
@@ -93,6 +99,7 @@ p.suboption > a {
 	margin: 16px 12px;
 	position: absolute;
 	left: 18%;
+	width: 80%;
 }
 .body-text {
 	text-align: left;
@@ -100,4 +107,6 @@ p.suboption > a {
 	font-size: 20px;
 	margin: 16px 12px;
 	position: relative;
+	left: 10%;
+	width: 85%;
 }
