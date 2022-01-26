@@ -15,6 +15,10 @@ div a:hover {
 	background-color:  #202020;
 }
 
+body {
+	font-size: 100%;
+}
+
 .subheader {
 	color:  #044440;
 	background: lightgrey;
