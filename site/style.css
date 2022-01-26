@@ -67,7 +67,7 @@ div.option-box {
 	background: grey;
 	color: #aaffff;
 	border: 5px outset #044440;
-	width: 15%;
+	width: 25%;
 }      
 
 .suboption {
@@ -98,8 +98,8 @@ p.suboption > a {
 	font-size: 20px;
 	margin: 16px 12px;
 	position: absolute;
-	left: 18%;
-	width: 80%;
+	left: 30%;
+	width: 65%;
 }
 .body-text {
 	text-align: left;
