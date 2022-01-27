@@ -1,0 +1,435 @@
+* {
+	box-sizing: border-box;
+	font-family: serif;
+	font-size: 100%;
+}	
+
+
+@media (max-width: 767px){
+	section.col_sm_1 {
+		width: 8%;
+		background-color: #044440;
+		border-style: inset;
+		border-color: black;
+		border-width: 1px;
+		color: lightgrey;
+		position: relative;
+		display: inline-block;
+	}
+	section.col_sm_2 {
+		width: 16%;
+		background-color: #044440;
+		border-style: inset;
+		border-color: black;
+		border-width: 1px;
+		color: lightgrey;
+		position: relative;
+		display: inline-block;
+	}
+	section.col_sm_3 {
+		width: 24%;
+		background-color: #044440;
+		border-style: inset;
+		border-color: black;
+		border-width: 1px;
+		color: lightgrey;
+		position: relative;
+		display: inline-block;
+	}
+	section.col_sm_4 {
+		width: 32%;
+		background-color: #044440;
+		border-style: inset;
+		border-color: black;
+		border-width: 1px;
+		color: lightgrey;
+		position: relative;
+		display: inline-block;
+	}
+	section.col_sm_5 {
+		width: 40%;
+		background-color: #044440;
+		border-style: inset;
+		border-color: black;
+		border-width: 1px;
+		color: lightgrey;
+		position: relative;
+		display: inline-block;
+	}
+	section.col_sm_6 {
+		width: 48%;
+		background-color: #044440;
+		border-style: inset;
+		border-color: black;
+		border-width: 1px;
+		color: lightgrey;
+		position: relative;
+		display: inline-block;
+	}
+	section.col_sm_7 {
+		width: 56%;
+		background-color: #044440;
+		border-style: inset;
+		border-color: black;
+		border-width: 1px;
+		color: lightgrey;
+		position: relative;
+		display: inline-block;
+	}
+	section.col_sm_8 {
+		width: 64%;
+		background-color: #044440;
+		border-style: inset;
+		border-color: black;
+		border-width: 1px;
+		color: lightgrey;
+		position: relative;
+		display: inline-block;
+	}
+	section.col_sm_9 {
+		width: 72%;
+		background-color: #044440;
+		border-style: inset;
+		border-color: black;
+		border-width: 1px;
+		color: lightgrey;
+		position: relative;
+		display: inline-block;
+	}
+	section.col_sm_10 {
+		width: 80%;
+		background-color: #044440;
+		border-style: inset;
+		border-color: black;
+		border-width: 1px;
+		color: lightgrey;
+		position: relative;
+		display: inline-block;
+	}
+	section.col_sm_11 {
+		width: 88%;
+		background-color: #044440;
+		border-style: inset;
+		border-color: black;
+		border-width: 1px;
+		color: lightgrey;
+		position: relative;
+		display: inline-block;
+	}
+	section.col_sm_12 {
+		width: 96%;
+		background-color: #044440;
+		border-style: inset;
+		border-color: black;
+		border-width: 1px;
+		color: lightgrey;
+		position: relative;
+		display: inline-block;
+	}
+}
+
+@media (min-width: 768px) and (max-width: 991px){
+	section.col_md_1 {
+		width: 8%;
+		background-color: #044440;
+		border-style: inset;
+		border-color: black;
+		border-width: 1px;
+		color: lightgrey;
+		position: relative;
+		display: inline-block;
+	}
+	section.col_md_2 {
+		width: 16%;
+		background-color: #044440;
+		border-style: inset;
+		border-color: black;
+		border-width: 1px;
+		color: lightgrey;
+		position: relative;
+		display: inline-block;
+	}
+	section.col_md_3 {
+		width: 24%;
+		background-color: #044440;
+		border-style: inset;
+		border-color: black;
+		border-width: 1px;
+		color: lightgrey;
+		position: relative;
+		display: inline-block;
+	}
+	section.col_md_4 {
+		width: 32%;
+		background-color: #044440;
+		border-style: inset;
+		border-color: black;
+		border-width: 1px;
+		color: lightgrey;
+		position: relative;
+		display: inline-block;
+	}
+	section.col_md_5 {
+		width: 40%;
+		background-color: #044440;
+		border-style: inset;
+		border-color: black;
+		border-width: 1px;
+		color: lightgrey;
+		position: relative;
+		display: inline-block;
+	}
+	section.col_md_6 {
+		width: 46%;
+		background-color: #044440;
+		border-style: inset;
+		border-color: black;
+		border-width: 1px;
+		color: lightgrey;
+		position: relative;
+		display: inline-block;
+	}
+	section.col_md_7 {
+		width: 56%;
+		background-color: #044440;
+		border-style: inset;
+		border-color: black;
+		border-width: 1px;
+		color: lightgrey;
+		position: relative;
+		display: inline-block;
+	}
+	section.col_md_8 {
+		width: 64%;
+		background-color: #044440;
+		border-style: inset;
+		border-color: black;
+		border-width: 1px;
+		color: lightgrey;
+		position: relative;
+		display: inline-block;
+	}
+	section.col_md_9 {
+		width: 72%;
+		background-color: #044440;
+		border-style: inset;
+		border-color: black;
+		border-width: 1px;
+		color: lightgrey;
+		position: relative;
+		display: inline-block;
+	}
+	section.col_md_10 {
+		width: 80%;
+		background-color: #044440;
+		border-style: inset;
+		border-color: black;
+		border-width: 1px;
+		color: lightgrey;
+		position: relative;
+		display: inline-block;
+	}
+	section.col_md_11 {
+		width: 88%;
+		background-color: #044440;
+		border-style: inset;
+		border-color: black;
+		border-width: 1px;
+		color: lightgrey;
+		position: relative;
+		display: inline-block;
+	}
+	section.col_md_12 {
+		width: 96%;
+		background-color: #044440;
+		border-style: inset;
+		border-color: black;
+		border-width: 1px;
+		color: lightgrey;
+		position: relative;
+		display: inline-block;
+	}
+}
+
+@media (min-width: 992px){
+	section.col_lg_1 {
+		width: 8%;
+		background-color: #044440;
+		border-style: inset;
+		border-color: black;
+		border-width: 1px;
+		color: lightgrey;
+		position: relative;
+		display: inline-block;
+	}
+	section.col_lg_2 {
+		width: 16%;
+		background-color: #044440;
+		border-style: inset;
+		border-color: black;
+		border-width: 1px;
+		color: lightgrey;
+		position: relative;
+		display: inline-block;
+	}
+	section.col_lg_3 {
+		width: 24%;
+		background-color: #044440;
+		border-style: inset;
+		border-color: black;
+		border-width: 1px;
+		color: lightgrey;
+		position: relative;
+		display: inline-block;
+	}
+	section.col_lg_4 {
+		width: 30%;
+		background-color: #044440;
+		border-style: inset;
+		border-color: black;
+		border-width: 1px;
+		color: lightgrey;
+		position: relative;
+		display: inline-block;
+	}
+	section.col_lg_5 {
+		width: 40%;
+		background-color: #044440;
+		border-style: inset;
+		border-color: black;
+		border-width: 1px;
+		color: lightgrey;
+		position: relative;
+		display: inline-block;
+	}
+	section.col_lg_6 {
+		width: 48%;
+		background-color: #044440;
+		border-style: inset;
+		border-color: black;
+		border-width: 1px;
+		color: lightgrey;
+		position: relative;
+		display: inline-block;
+	}
+	section.col_lg_7 {
+		width: 56%;
+		background-color: #044440;
+		border-style: inset;
+		border-color: black;
+		border-width: 1px;
+		color: lightgrey;
+		position: relative;
+		display: inline-block;
+	}
+	section.col_lg_8 {
+		width: 64%;
+		background-color: #044440;
+		border-style: inset;
+		border-color: black;
+		border-width: 1px;
+		color: lightgrey;
+		position: relative;
+		display: inline-block;
+	}
+	section.col_lg_9 {
+		width: 72%;
+		background-color: #044440;
+		border-style: inset;
+		border-color: black;
+		border-width: 1px;
+		color: lightgrey;
+		position: relative;
+		display: inline-block;
+	}
+	section.col_lg_10 {
+		width: 80%;
+		background-color: #044440;
+		border-style: inset;
+		border-color: black;
+		border-width: 1px;
+		color: lightgrey;
+		position: relative;
+		display: inline-block;
+	}
+	section.col_lg_11 {
+		width: 88%;
+		background-color: #044440;
+		border-style: inset;
+		border-color: black;
+		border-width: 1px;
+		color: lightgrey;
+		position: relative;
+		display: inline-block;
+	}
+	section.col_lg_12 {
+		width: 96%;
+		background-color: #044440;
+		border-style: inset;
+		border-color: black;
+		border-width: 1px;
+		color: lightgrey;
+		position: relative;
+		display: inline-block;
+	}
+}
+
+section {
+	margin: 1%;
+	margin-top: 25px;
+	margin-bottom:  0px;
+	
+}
+div.chicken-header {
+	position:  absolute;
+	right: 0px;
+	top: 0%;
+	width: 20%;
+	height: 25px;
+	background-color: #ffff00;
+	color: black;
+	display: block;
+	border-style: inset;
+	border-color: black;
+	border-width: 1px;
+	font-size:  1.25em;
+}
+
+div.beef-header {
+	position:  absolute;
+	right: 0px;
+	top: 0%;
+	width: 20%;
+	height: 25px;
+	background-color: #ff00ff;
+	color: black;
+	display: block;
+	border-style: inset;
+	border-color: black;
+	border-width: 1px;
+	font-size:  1.25em;
+}
+
+div.sushi-header {
+	position:  absolute;
+	right: 0px;
+	top: 0%;
+	width: 20%;
+	height: 25px;
+	background-color: #00ffff;
+	color: black;
+	display: block;
+	border-style: inset;
+	border-color: black;
+	border-width: 1px;
+	font-size:  1.25em;
+}
+
+h1 {
+	text-align: center;
+	font-size: 1.75em;
+}
+
+
+
+	
