@@ -4,7 +4,7 @@ You can use the [editor on GitHub](https://github.com/Nibble0x4/coursera/edit/ma
 
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
-If you'd like to go to the site proper, use this link [Go to Site](https://nibble0x4.github.io/coursera/site/)
+If you'd like to go to the site proper, use this link [Go to Site](https://nibble0x4.github.io/coursera/assignments/mod2_solution/index.html)
 
 We are on the main branch right now, fellas, just so ya know.
 
