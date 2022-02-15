@@ -4,7 +4,7 @@ You can use the [editor on GitHub](https://github.com/Nibble0x4/coursera/edit/ma
 
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
-If you'd like to go to the site proper, use this link [Go to Site](https://nibble0x4.github.io/coursera/assignments/mod2_solution/index.html)
+If you'd like to go to the site proper, use this link [Go to Site](https://nibble0x4.github.io/coursera/assignments/mod3_solution/index.html)
 
 We are on the main branch right now, fellas, just so ya know.
 
@@ -28,7 +28,7 @@ Syntax highlighted code block
 **Bold** and _Italic_ and `Code` text
 
 [Link](url) and ![Image](src)
-[Link](https://nibble0x4.github.io/coursera/assignments/mod3_solution/)
+[Link](https://nibble0x4.github.io/coursera/assignments/mod3_solution/index.html)
 ```
 
 For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
