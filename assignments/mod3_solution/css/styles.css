@@ -1,0 +1,10 @@
+div.container-fluid > .col-xs-12 {
+	background-color: lightgrey;
+}
+
+ul.dropdown-menu > li {
+	backrgound-color: lightgrey;
+	width: 90%;
+	margin-right: 5%;
+	margin-left: 5%;
+}
